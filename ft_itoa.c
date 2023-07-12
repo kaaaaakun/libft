@@ -75,7 +75,7 @@ static void	ft_micpynbr(int nbr, char *str)
 		ft_micpynbr(nbr / 10, str - 1);
 	}
 }
-//intの値をcahrに変更する機構
+//intの値をcahrに変更する関数
 //26,37:int型が何文字分あるのかをカウント
 //27:文字数＋'\0'分をmalloc
 //30,53:値が'+'だった時の処理(再起)
