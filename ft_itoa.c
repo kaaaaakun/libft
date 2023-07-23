@@ -20,9 +20,7 @@ char	*ft_itoa(int nbr)
 {
 	char	*result;
 	size_t	len;
-	int		flag;
 
-	flag = 0;
 	len = ft_intcount(nbr);
 	result = (char *)ft_calloc(len + 1, sizeof(char));
 	if (result == 0)

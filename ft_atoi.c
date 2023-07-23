@@ -18,13 +18,6 @@ static long long int	plus_atoi(const char *str);
 
 int	ft_atoi(const char *str)
 {
-	size_t			i;
-	int				flag;
-	long long int	nbr;
-
-	i = 0;
-	nbr = 0;
-	flag = 0;
 	while (ft_isspace(*str))
 		str++;
 	if (*str == '-')
